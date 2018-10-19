@@ -3,6 +3,7 @@ author: Very Good Board Games
 email: mtdegoes@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
   Very Good Board Games
+url: http://mtdegoes.github.io/vgbg/
 
 # social links
 twitter_username: jekyllrb
