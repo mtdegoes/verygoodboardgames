@@ -185,6 +185,9 @@ h1 + ol, h2 + ol, h3 + ol, h4 + ol, h5 + ol, h6 + ol, h1 + ul, h2 + ul, h3 + ul,
   .abs-opt.hide-sm {
     display: none; } }
 
+* {
+  display: none; }
+
 html {
   font-family: arial, sans-serif; }
 
