@@ -232,8 +232,10 @@ p.caption {
 
 .home .background-image {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  margin-left: -1%;
+  margin-top: -1%;
+  width: 102%;
+  height: 102%;
   background: url("../images/background_particles.jpg") no-repeat center;
   background-size: cover;
   -moz-box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.8);
