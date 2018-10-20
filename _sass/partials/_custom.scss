@@ -25,10 +25,35 @@ p, li {
 p.caption {
 	font-size: 10px;
 }
+//PRODUCT MENU
+.product-menu {
+	text-align: center;
+	a {
+		width: 90%;
+		background-color: #000;
+		display: inline-block;
+		cursor: pointer;
+		padding: 20px 5%;
+		img {
+			width: 100%;
+			max-width: 240px;
+			-webkit-transition: 1s;
+			transition: 1s;
+		}
+		&:hover {
+			img {
+				width: 100%;
+				-ms-transform: scale(1.4);
+				-webkit-transform: scale(1.4);
+				transform: scale(1.4);
+			}
+		}
+	}
+}
 
 //REPEATABLE SECTIONS
 .site-footer {
-	background-color: $dgrey;
+	background-color: $mdgrey;
 	margin-top: -1px;
 	.legal {
 		padding: $absStdSpacing/4;
@@ -38,7 +63,6 @@ p.caption {
 		}
 	}
 }
-
 
 //PAGES
 .home {

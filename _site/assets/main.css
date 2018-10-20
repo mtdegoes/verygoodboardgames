@@ -202,8 +202,27 @@ p, li {
 p.caption {
   font-size: 10px; }
 
+.product-menu {
+  text-align: center; }
+  .product-menu a {
+    width: 90%;
+    background-color: #000;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 5%; }
+    .product-menu a img {
+      width: 100%;
+      max-width: 240px;
+      -webkit-transition: 1s;
+      transition: 1s; }
+    .product-menu a:hover img {
+      width: 100%;
+      -ms-transform: scale(1.4);
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4); }
+
 .site-footer {
-  background-color: #111;
+  background-color: #252525;
   margin-top: -1px; }
   .site-footer .legal {
     padding: 5px;
