@@ -189,7 +189,8 @@ header {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Jomolhari', serif;
+  letter-spacing: 2px;
   font-weight: 500;
   text-transform: uppercase; }
 
@@ -216,7 +217,7 @@ h5 {
 p {
   font-size: 12px; }
 
-p, li {
+p, li, input, label {
   font-family: 'Montserrat', sans-serif; }
 
 p.caption {
@@ -246,38 +247,43 @@ p.caption {
       z-index: 1; }
     .product-menu a:hover img {
       width: 100%;
-      -ms-transform: scale(1.4);
-      -webkit-transform: scale(1.4);
-      transform: scale(1.4); }
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
 
 .page-title {
   background-color: #111; }
   .page-title h1 {
-    color: #666; }
+    color: #ccc; }
 
 .body-content {
-  background-color: #666;
+  background-color: #252525;
   color: #ffffff;
-  padding: 40px 20px; }
+  padding: 40px 20px;
+  min-height: 600px; }
 
 .nav-menu {
-  width: 200px; }
+  width: 200px;
+  padding-top: 10px; }
   .nav-menu a {
     display: block;
     font-weight: 300;
     letter-spacing: 2px;
     font-size: 12px;
-    padding: 10px 10px 5px 10px;
+    padding: 10px 10px 5px 20px;
     color: #fff;
     text-decoration: none;
     -webkit-transition: 1s;
-    transition: 1s; }
+    transition: 1s;
+    font-family: 'Jomolhari', serif;
+    cursor: pointer; }
     .nav-menu a + a {
       padding-top: 5px; }
+    .nav-menu a:hover {
+      padding-left: 30px; }
 
 .site-footer {
-  background-color: #252525;
-  margin-top: -1px; }
+  background-color: #252525; }
   .site-footer .legal {
     padding: 5px;
     text-align: center; }
@@ -302,7 +308,77 @@ p.caption {
     display: inline-block;
     width: 90%;
     max-width: 500px;
-    padding: 150px 5%;
+    padding: 100px 5%;
     text-align: center; }
 .home .home-link {
   display: none; }
+.home .center-form {
+  margin-bottom: 40px; }
+
+.center-form {
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto; }
+  .center-form h6 {
+    color: #fff;
+    text-align: center; }
+  .center-form .first-pair {
+    width: 94%;
+    padding: 3% 3% 0% 3%; }
+  .center-form .second-pair {
+    width: 94%;
+    padding: 0% 3% 3% 3%; }
+  .center-form .button {
+    margin-left: auto;
+    margin-right: auto; }
+
+.full-form {
+  width: 100%; }
+  .full-form .first-pair {
+    width: 98%;
+    padding: 1% 1% 0% 1%; }
+  .full-form .second-pair {
+    width: 98%;
+    padding: 0% 1% 1% 1%; }
+
+#mc_embed_signup .mc-field-group h4 {
+  color: #fff; }
+#mc_embed_signup .mc-field-group label.first-pair {
+  border-left: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-color: #000;
+  border-style: solid;
+  display: block;
+  background: #fff;
+  color: #666;
+  font-size: 12px; }
+#mc_embed_signup .mc-field-group input.second-pair {
+  border-left: 1px;
+  border-bottom: 1px;
+  border-right: 1px;
+  border-color: #000;
+  border-style: solid;
+  display: block;
+  background: #fff;
+  color: #252525;
+  font-size: 14px; }
+#mc_embed_signup .mc-field-group:hover label.first-pair {
+  border-color: #ff4d2e; }
+#mc_embed_signup .mc-field-group:hover input.second-pair {
+  border-color: #ff4d2e; }
+#mc_embed_signup .indicates-required {
+  color: #ccc;
+  padding-top: 10px; }
+
+.button {
+  display: block;
+  background-color: #ff4d2e;
+  color: #fff;
+  cursor: pointer; }
+  .button.md {
+    margin-top: 20px;
+    padding: 5px 10px; }
+
+.news #mc_embed_signup {
+  margin-top: 20px; }
